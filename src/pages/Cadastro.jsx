@@ -56,7 +56,7 @@ export default function Cadastro(){
 
             <div className="form-cadastro">
                 <div className="informacoesCadastro">
-                    <input type="text" placeholder="Nome de Usuario" onChange={e => setUserName(e.target.value)}/> <br />
+                    <input type="text" placeholder="Nome de Usuário" onChange={e => setUserName(e.target.value)}/> <br />
                     <input type="text" placeholder="Email" onChange={e => setEmail(e.target.value)} /> <br />
                     <input type="text" placeholder="Senha" onChange={e => setSenha(e.target.value)}/> <br />
                 </div>
